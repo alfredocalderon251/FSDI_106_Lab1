@@ -1,0 +1,81 @@
+body{
+    margin:0;
+}
+
+h1{
+    background-color:#333;
+    color:#fff;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin:0;
+}
+
+.create-form{
+    margin:20px 200px 20px 200px;
+    border:1px solid #ccc;
+    background-color:#ececec;
+    border-radius:6px;
+    padding:10px 20px;
+    text-align:center;
+}
+
+#txt_Todo{
+    padding:5px 10px;
+    margin-right:5px;
+    border-radius: 5px
+}
+
+.pending-list{
+    list-style-type: none;
+    
+}
+
+ul{
+    padding-right: 30px;
+}
+
+ul li{
+    font-weight: bold;
+    list-style-type:none;
+    background-color:#f1f1f1;
+    padding:5px 10px;
+    border:1px solid #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size:14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li:hover{
+    border:1px solid rgb(248,222,134);
+}
+
+.list{
+    margin:auto;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #2869ab 5%, #0070e0 100%);
+	background-color:#2869ab;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #106ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0070e0 5%, #2869ab 100%);
+	background-color:#0070e0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
